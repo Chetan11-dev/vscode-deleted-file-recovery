@@ -53,13 +53,13 @@ setup(
     #
     # This field corresponds to the "Description" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#description-optional
-    version='4.0.10',
+    version='4.0.11',
     author="Chetan Jain",
     author_email="chetan@omkar.cloud",
-    description="This handy tool helps you recover deleted files within your VSCode History. ",
+    description="This tool helps you recover deleted files within your VSCode History.",
     license="MIT",
     keywords=["vscode file recovery", "recover vs code files"],
-    url="https://github.com/omkarcloud/vscode_deleted_file_recovery",
+    url="https://github.com/Chetan11-dev/vscode_deleted_file_recovery",
     long_description_content_type="text/markdown",
     long_description=get_description(),
     python_requires=">=3.6",
@@ -186,9 +186,9 @@ setup(
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
     project_urls={  # Optional
-        'Bug Reports': 'https://github.com/omkarcloud/vscode_deleted_file_recovery/issues',
+        'Bug Reports': 'https://github.com/Chetan11-dev/vscode_deleted_file_recovery/issues',
         # 'Funding': 'https://donate.pypi.org',
-        'Say Thanks!': 'https://github.com/omkarcloud/vscode_deleted_file_recovery',
-        'Source': 'https://github.com/omkarcloud/vscode_deleted_file_recovery/',
+        'Say Thanks!': 'https://github.com/Chetan11-dev/vscode_deleted_file_recovery',
+        'Source': 'https://github.com/Chetan11-dev/vscode_deleted_file_recovery/',
     },
 )

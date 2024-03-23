@@ -1,7 +1,7 @@
 
 **VSCode Deleted File Recovery Tool**
 
-This handy tool helps you recover deleted files within your VSCode History. 
+This tool helps you recover deleted files from your VSCode History.
 
 **Features:**
 
@@ -29,4 +29,12 @@ Recover.restore_files(search_term="/Chetan/Documents/tasks")  # Replace with you
 
 You can find restored files in the `Recovery` folder where you ran the command.
 
-## Love It Star It!
+## Love It? [Star It! ⭐](https://github.com/Chetan11-dev/vscode-deleted-file-recovery)
+
+Become one of our amazing stargazers by giving us a star ⭐ on GitHub!
+
+It's just one click, but it means the world to me.
+
+<a href="https://github.com/Chetan11-dev/vscode-deleted-file-recovery/stargazers">
+    <img src="https://bytecrank.com/nastyox/reporoster/php/stargazersSVG.php?user=Chetan11-dev&repo=vscode-deleted-file-recovery" alt="Stargazers for @Chetan11-dev/vscode-deleted-file-recovery">
+</a>
