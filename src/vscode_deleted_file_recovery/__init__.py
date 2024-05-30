@@ -54,9 +54,11 @@ def get_vscode_path():
 
 class Recover:
     @staticmethod
-    def print_files(search_term):
+    def print_files(search_term, vs_folder = ''):
+        base_folder = os.path.expanduser(vs_folder)
+        if not len(base_folder):
+          base_folder = get_vscode_path()
         xs = []
-        base_folder = get_vscode_path()
         for folder in os.listdir(base_folder):
             if not folder.startswith("_recovery"):
                 entries_path = os.path.join(base_folder, folder, 'entries.json')
@@ -70,10 +72,12 @@ class Recover:
             print(x)
 
     @staticmethod
-    def restore_files(search_term):
-        vs_folder = get_vscode_path()
-        base_folder = os.getcwd()
+    def restore_files(search_term, vs_folder = ''):
+        vs_folder = os.path.expanduser(vs_folder)
+        if not len(vs_folder):
+          vs_folder = get_vscode_path()
 
+        base_folder = os.getcwd()
         for folder in os.listdir(vs_folder):
             if not folder.startswith("_recovery"):
                 entries_path = os.path.join(vs_folder, folder, 'entries.json')
